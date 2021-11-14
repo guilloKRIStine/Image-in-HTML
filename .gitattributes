@@ -1,2 +1,33 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<HTML>
+<HEAD>
+<STYLE>
+.backgd {
+  background:linear-gradient(#00FFFF,#00CED1,#EE82EE,#FF69B4 ,#FF1493);
+
+}
+.borderElement {
+  width:450px;
+  height:400px;
+
+  border: 10px solid #A9A9A9;
+}
+TD, TR {
+  border: 10px solid #DCDCDC;
+  border-collapse: separate ;
+}
+
+</STYLE>
+</HEAD>
+<BODY>
+<div  class="borderElement">
+<table   style="width:450px; height:400px; border:  solid black">
+<TR border=4>
+	<TD  class="backgd"></TD><TD width="300" rowspan="2" class="backgd" ></TD>
+</TR>
+<TR border=4 height="280px" >
+	<TD class="backgd"></TD>
+</TR>
+</table>
+</div>
+</BODY>
+</HTML>
